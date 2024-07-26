@@ -166,7 +166,8 @@ export default function About() {
                 <div className="space-y-2">
                   <div className="w-full flex">
                     <h2 className="w-1/2">C#</h2>
-                    <CountUp end={78} duration={4} className="w-1/2 text-end" />%
+                    <CountUp end={78} duration={4} className="w-1/2 text-end" />
+                    %
                   </div>
                   <div className="progress bg-[#181818]">
                     <div className="h-[10px] w-[78%] bg-underline left-right transition-all duration-500"></div>
@@ -175,7 +176,8 @@ export default function About() {
                 <div className="space-y-2">
                   <div className="w-full flex">
                     <h2 className="w-1/2">PHP</h2>
-                    <CountUp end={72} duration={4} className="w-1/2 text-end" />%
+                    <CountUp end={72} duration={4} className="w-1/2 text-end" />
+                    %
                   </div>
                   <div className="progress bg-[#181818]">
                     <div className="h-[10px] w-[72%] bg-underline left-right transition-all duration-500"></div>
@@ -184,7 +186,8 @@ export default function About() {
                 <div className="space-y-2">
                   <div className="w-full flex">
                     <h2 className="w-1/2">REACT</h2>
-                    <CountUp end={74} duration={4} className="w-1/2 text-end" />%
+                    <CountUp end={74} duration={4} className="w-1/2 text-end" />
+                    %
                   </div>
                   <div className="progress bg-[#181818]">
                     <div className="h-[10px] w-[74%] bg-underline left-right transition-all duration-500"></div>
@@ -193,7 +196,8 @@ export default function About() {
                 <div className="space-y-2">
                   <div className="w-full flex">
                     <h2 className="w-1/2">NEXTJS</h2>
-                    <CountUp end={86} duration={4} className="w-1/2 text-end" />%
+                    <CountUp end={86} duration={4} className="w-1/2 text-end" />
+                    %
                   </div>
                   <div className="progress bg-[#181818]">
                     <div className="h-[10px] w-[86%] bg-underline left-right transition-all duration-500"></div>
@@ -202,7 +206,8 @@ export default function About() {
                 <div className="space-y-2">
                   <div className="w-full flex">
                     <h2 className="w-1/2">MONGODB</h2>
-                    <CountUp end={83} duration={4} className="w-1/2 text-end" />%
+                    <CountUp end={83} duration={4} className="w-1/2 text-end" />
+                    %
                   </div>
                   <div className="progress bg-[#181818]">
                     <div className="h-[10px] w-[83%] bg-underline left-right transition-all duration-500"></div>

@@ -7,7 +7,7 @@ import RetroGrid from "./components/retro";
 const jakarta = Plus_Jakarta_Sans({ subsets: ["latin"] });
 
 export const metadata = {
-  title: "Welcome!",
+  title: "Nard Sarroca",
   description: "Bernard Sarroca's Portfolio",
 };
 
