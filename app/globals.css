@@ -6,20 +6,11 @@ body {
   background-color: #181818;
 }
 
-#active {
-  color: white;
-}
-
-#active div {
-  width: 50%;
-}
-
 .progress {
   animation: progress 4s;
 }
 
-.left-right {
-}
+
 @keyframes progress {
   0% {
     width: 0;
@@ -32,4 +23,20 @@ body {
 .orig img {
   height:calc(205px * var(--s,1));
   width:calc(500px * var(--s,1));
+}
+
+@keyframes boot {
+  0% {
+    opacity: 0;
+    transform: translateY(40px);
+  }
+  100% {
+    opacity: 1;
+    transform: none;
+  }
+}
+.boot {
+  animation: boot;
+  animation-duration: 1s;
+  animation-fill-mode: forwards;
 }

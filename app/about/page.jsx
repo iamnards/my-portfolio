@@ -10,7 +10,7 @@ export default function About() {
   return (
     <main className="h-full">
       <Navbar />
-      <section className="flex-wrap bg-wall mt-5 mx-16 py-4 px-8 z-10">
+      <section className="flex-wrap bg-wall mt-5 mx-16 py-4 px-8 z-10 boot">
         <div className="flex-wrap z-10 py-2">
           <div className="flex z-10">
             <h1 className="text-paragraph text-sm font-medium tracking-[2px] pr-3 ">
@@ -118,28 +118,28 @@ export default function About() {
               <div className="space-y-2">
                 <div className="w-full flex">
                   <h2 className="w-1/2">PYTHON</h2>
-                  <CountUp end={75} duration={4} className="w-1/2 text-end" />%
+                  <CountUp end={83} duration={4} className="w-1/2 text-end" />%
                 </div>
                 <div className="progress bg-[#181818]">
-                  <div className="h-[10px] w-[75%] bg-underline left-right transition-all duration-500"></div>
+                  <div className="h-[10px] w-[83%] bg-underline transition-all duration-500"></div>
                 </div>
               </div>
               <div className="space-y-2">
                 <div className="w-full flex">
                   <h2 className="w-1/2">JAVA</h2>
-                  <CountUp end={82} duration={4} className="w-1/2 text-end" />%
+                  <CountUp end={87} duration={4} className="w-1/2 text-end" />%
                 </div>
                 <div className="progress bg-[#181818]">
-                  <div className="h-[10px] w-[82%] bg-underline left-right transition-all duration-500"></div>
+                  <div className="h-[10px] w-[87%] bg-underline transition-all duration-500"></div>
                 </div>
               </div>
               <div className="space-y-2">
                 <div className="w-full flex">
                   <h2 className="w-1/2">C++</h2>
-                  <CountUp end={80} duration={4} className="w-1/2 text-end" />%
+                  <CountUp end={85} duration={4} className="w-1/2 text-end" />%
                 </div>
                 <div className="progress bg-[#181818]">
-                  <div className="h-[10px] w-[80%] bg-underline left-right transition-all duration-500"></div>
+                  <div className="h-[10px] w-[85%] bg-underline transition-all duration-500"></div>
                 </div>
               </div>
               <div className="space-y-2">
@@ -148,16 +148,16 @@ export default function About() {
                   <CountUp end={97} duration={4} className="w-1/2 text-end" />%
                 </div>
                 <div className="progress bg-[#181818]">
-                  <div className="h-[10px] w-[97%] bg-underline left-right transition-all duration-500"></div>
+                  <div className="h-[10px] w-[97%] bg-underline transition-all duration-500"></div>
                 </div>
               </div>
               <div className="space-y-2">
                 <div className="w-full flex">
                   <h2 className="w-1/2">MARIDB</h2>
-                  <CountUp end={85} duration={4} className="w-1/2 text-end" />%
+                  <CountUp end={80} duration={4} className="w-1/2 text-end" />%
                 </div>
                 <div className="progress bg-[#181818]">
-                  <div className="h-[10px] w-[85%] bg-underline left-right transition-all duration-500"></div>
+                  <div className="h-[10px] w-[80%] bg-underline transition-all duration-500"></div>
                 </div>
               </div>
             </div>
@@ -166,31 +166,31 @@ export default function About() {
                 <div className="space-y-2">
                   <div className="w-full flex">
                     <h2 className="w-1/2">C#</h2>
-                    <CountUp end={78} duration={4} className="w-1/2 text-end" />
+                    <CountUp end={81} duration={4} className="w-1/2 text-end" />
                     %
                   </div>
                   <div className="progress bg-[#181818]">
-                    <div className="h-[10px] w-[78%] bg-underline left-right transition-all duration-500"></div>
+                    <div className="h-[10px] w-[81%] bg-underline transition-all duration-500"></div>
                   </div>
                 </div>
                 <div className="space-y-2">
                   <div className="w-full flex">
                     <h2 className="w-1/2">PHP</h2>
-                    <CountUp end={72} duration={4} className="w-1/2 text-end" />
+                    <CountUp end={80} duration={4} className="w-1/2 text-end" />
                     %
                   </div>
                   <div className="progress bg-[#181818]">
-                    <div className="h-[10px] w-[72%] bg-underline left-right transition-all duration-500"></div>
+                    <div className="h-[10px] w-[80%] bg-underline transition-all duration-500"></div>
                   </div>
                 </div>
                 <div className="space-y-2">
                   <div className="w-full flex">
                     <h2 className="w-1/2">REACT</h2>
-                    <CountUp end={74} duration={4} className="w-1/2 text-end" />
+                    <CountUp end={81} duration={4} className="w-1/2 text-end" />
                     %
                   </div>
                   <div className="progress bg-[#181818]">
-                    <div className="h-[10px] w-[74%] bg-underline left-right transition-all duration-500"></div>
+                    <div className="h-[10px] w-[81%] bg-underline transition-all duration-500"></div>
                   </div>
                 </div>
                 <div className="space-y-2">
@@ -200,7 +200,7 @@ export default function About() {
                     %
                   </div>
                   <div className="progress bg-[#181818]">
-                    <div className="h-[10px] w-[86%] bg-underline left-right transition-all duration-500"></div>
+                    <div className="h-[10px] w-[86%] bg-underline transition-all duration-500"></div>
                   </div>
                 </div>
                 <div className="space-y-2">
@@ -210,7 +210,7 @@ export default function About() {
                     %
                   </div>
                   <div className="progress bg-[#181818]">
-                    <div className="h-[10px] w-[83%] bg-underline left-right transition-all duration-500"></div>
+                    <div className="h-[10px] w-[83%] bg-underline transition-all duration-500"></div>
                   </div>
                 </div>
               </div>

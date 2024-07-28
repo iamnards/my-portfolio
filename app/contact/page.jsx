@@ -6,7 +6,7 @@ export default function Contact() {
   return (
     <main className="h-full">
       <Navbar />
-      <section className="bg-wall mt-5 mx-16 py-60 px-8 z-10">
+      <section className="bg-wall mt-5 mx-16 py-60 px-8 z-10 boot">
         <div className="">
           <h1 className="text-5xl text-white font-bold text-center py-3">
             Let's <span className="bg-underline rounded px-2 py-1">Start Collaborating</span> Together!
