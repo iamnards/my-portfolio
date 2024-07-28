@@ -79,7 +79,6 @@ export default function Portfolio() {
                   className="rounded-lg object-cover"
                   alt="donut"
                   src={Donut}
-                  style="--s:0.5"
                 />
               <p className="text-white font-bold pt-4 pb-1 text-[18px]">Donut</p>
               <p className="text-paragraph">
@@ -91,7 +90,6 @@ export default function Portfolio() {
                 className="rounded-lg object-cover"
                 alt="Pyramid"
                 src={Pyramid}
-                style="--s:0.5"
               />
               <p className="text-white font-bold pt-4 pb-1 text-[18px]">Pyramid Head</p>
               <p className="text-paragraph">
