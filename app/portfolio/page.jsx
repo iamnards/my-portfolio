@@ -8,6 +8,7 @@ import DigitalKubo from "../components/digitalkubo-repo.png";
 import Chess from "../components/chess.webp";
 import Pyramid from "../components/pyramid-head.webp";
 import Donut from "../components/donut.png";
+import Footer from "../components/Footer";
 
 export default function Portfolio() {
 
@@ -102,6 +103,7 @@ export default function Portfolio() {
           </div>
         </div>
       </section>
+      <Footer />
     </main>
   );
 }

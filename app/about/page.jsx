@@ -5,6 +5,7 @@ import Image from "next/image";
 import Side from "../components/4_bw1.webp";
 import Link from "next/link";
 import CountUp from "react-countup";
+import Footer from "../components/Footer";
 
 export default function About() {
   return (
@@ -218,6 +219,7 @@ export default function About() {
           </div>
         </div>
       </section>
+      <Footer />
     </main>
   );
 }

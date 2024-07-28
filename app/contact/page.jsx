@@ -1,6 +1,7 @@
 import React from "react";
 import Navbar from "../components/Navbar";
 import Link from "next/link";
+import Footer from "../components/Footer";
 
 export default function Contact() {
   return (
@@ -25,6 +26,7 @@ export default function Contact() {
         </div>
         <div></div>
       </section>
+      <Footer />
     </main>
   );
 }
