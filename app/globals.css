@@ -3,28 +3,33 @@
 @tailwind utilities;
 
 body {
-    background-color: #181818;
+  background-color: #181818;
 }
 
 #active {
-    color: white;
+  color: white;
 }
 
 #active div {
-    width: 50%;
+  width: 50%;
 }
 
 .progress {
-    animation: progress 4s;
+  animation: progress 4s;
+}
+
+.left-right {
+}
+@keyframes progress {
+  0% {
+    width: 0;
   }
-  
-  .left-right {
+  100% {
+    width: 100%;
   }
-      @keyframes progress {
-        0% { width: 0; }
-        100% { width: 100%; }
-  }
-  
-  .hide-scroll::-webkit-scrollbar {
-    display:none
-  }
+}
+
+.orig img {
+  height:calc(205px * var(--s,1));
+  width:calc(500px * var(--s,1));
+}

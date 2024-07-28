@@ -11,7 +11,7 @@ export default function About() {
     <main className="h-full">
       <Navbar />
       <section className="flex-wrap bg-wall mt-5 mx-16 py-4 px-8 z-10">
-        <div className="flex-wrap z-10">
+        <div className="flex-wrap z-10 py-2">
           <div className="flex z-10">
             <h1 className="text-paragraph text-sm font-medium tracking-[2px] pr-3 ">
               ABOUT
