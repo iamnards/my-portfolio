@@ -11,11 +11,11 @@ import { TypeAnimation } from "react-type-animation";
 export default function Home() {
   return (
     <header className="h-screen w-screen flex">
-      <div className="w-1/2 place-content-center px-20 z-10">
-        <h2 className="text-white text-5xl font-extrabold py-2">
+      <div className="w-full lg:w-1/2 place-content-center px-6 md:px-10 lg:px-20 z-10">
+        <h2 className="text-white text-5xl font-extrabold py-2 text-center lg:text-left">
           Nard Sarroca
         </h2>
-        <p className="text-paragraph text-2xl py-2">
+        <p className="text-paragraph text-xl md:text-2xl py-2 text-center lg:text-left">
           I'm a <TypeAnimation className="text-white"
           sequence={[
             "gradute of BS in Computer Science.",
@@ -30,7 +30,7 @@ export default function Home() {
           repeat={Infinity}
           />
         </p>
-        <ul className="text-paragraph space-x-8 py-4">
+        <ul className="text-paragraph space-x-[12px] lg:space-x-8 py-4 text-center lg:text-start">
           <Link className="text-white inline-block" href="/">
             Home ( )
             <div className="bg-underline h-[0.125rem] w-[50%] transition-all duration-500"></div>
@@ -48,39 +48,40 @@ export default function Home() {
             <div className="bg-underline h-[0.125rem] w-0 group-hover:w-[50%] transition-all duration-500"></div>
           </Link>
         </ul>
-        <ul className="flex gap-6">
+        <ul className="flex gap-6 place-content-center lg:place-content-start">
           <Link
             className="bg-black hover:invert hover:duration-500 rounded-full p-3"
             href="https://www.facebook.com/bernarddddd"
             target="_blank"
           >
-            <Image src={Facebook} alt="Facebook" width={25} />
+            <Image loading="lazy" src={Facebook} alt="Facebook" width={25} />
           </Link>
           <Link
             className="bg-black hover:invert hover:duration-500 rounded-full p-3"
             href="https://www.instagram.com/i.am.nards/"
             target="_blank"
           >
-            <Image src={Instagram} alt="Instagram" width={25} />
+            <Image loading="lazy" src={Instagram} alt="Instagram" width={25} />
           </Link>
           <Link
             className="bg-black hover:invert hover:duration-500 rounded-full p-3"
             href="https://github.com/iamnards"
             target="_blank"
           >
-            <Image src={GitHub} alt="GitHub" width={25} />
+            <Image loading="lazy" src={GitHub} alt="GitHub" width={25} />
           </Link>
           <Link
             className="bg-black hover:invert hover:duration-500 rounded-full p-3"
             href="https://www.linkedin.com/in/nard-sarroca-9b360131a/"
             target="_blank"
           >
-            <Image src={LinkedIn} alt="LinkedIn" width={25} />
+            <Image loading="lazy" src={LinkedIn} alt="LinkedIn" width={25} />
           </Link>
         </ul>
       </div>
-      <div className="w-1/2 z-10">
+      <div className="w-1/2 z-10 hidden lg:block">
         <Image
+          loading="lazy"
           className="size-full object-contain rounded-xl"
           src={Profile}
           alt="Pic"
