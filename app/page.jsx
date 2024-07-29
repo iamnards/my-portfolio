@@ -15,7 +15,7 @@ export default function Home() {
         <h2 className="text-white text-5xl font-extrabold py-2 text-center lg:text-left">
           Nard Sarroca
         </h2>
-        <p className="text-paragraph text-xl md:text-2xl py-2 text-center lg:text-left">
+        <p className="text-paragraph text-xl lg:text-2xl py-2 text-center lg:text-left">
           I'm a <TypeAnimation className="text-white"
           sequence={[
             "gradute of BS in Computer Science.",

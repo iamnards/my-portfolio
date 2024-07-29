@@ -15,7 +15,7 @@ export default function Portfolio() {
   return (
     <main className="h-full">
       <Navbar />
-      <section className="flex-wrap bg-wall mt-5 mx-16 py-4 px-8 z-10 boot">
+      <section className="flex-wrap bg-wall mt-5 lg:mx-16 py-4 px-8 z-10 boot">
         <div className="z-10 py-2">
           <div className="flex z-10">
             <h1 className="text-paragraph text-sm font-medium tracking-[2px] pr-3">
@@ -24,16 +24,16 @@ export default function Portfolio() {
             <div className="bg-underline h-[0.07rem] w-[9%] mt-[10px]"></div>
           </div>
           <div className="z-10">
-            <h2 className="text-white text-[34px] font-extrabold">
+            <h2 className="text-white text-[30px] lg:text-[34px] font-extrabold">
               MY WORKS AND COLLABORATIONS
             </h2>
           </div>
         </div>
         <div className="">
-          <div className="flex space-x-8 py-4">
-            <div className="w-1/3 rounded-lg p-4 hover:bg-[#181818] duration-50 transition-all">
+          <div className="lg:flex lg:space-x-8 py-4">
+            <div className="lg:w-1/3 rounded-lg p-4 hover:bg-[#181818] duration-50 transition-all">
               <Link href="https://github.com/iamnards/Odyssey" target="_blank">
-                <Image className="rounded-lg" alt="odyssey" src={Odyssey} />
+                <Image loading="lazy" className="rounded-lg" alt="odyssey" src={Odyssey} />
                 <p className="text-white font-bold pt-4 pb-1 text-[18px]">Odyssey</p>
                 <p className="text-paragraph">
                   A Mobile Augmented Reality Application for Interactive
@@ -41,12 +41,12 @@ export default function Portfolio() {
                 </p>
               </Link>
             </div>
-            <div className="w-1/3 rounded-lg p-4 hover:bg-[#181818] duration-50 transition-all">
+            <div className="lg:w-1/3 rounded-lg p-4 hover:bg-[#181818] duration-50 transition-all">
               <Link
                 href="https://github.com/iamnards/WingMan-App"
                 target="_blank"
               >
-                <Image className="rounded-lg" alt="wingman" src={Wingman} />
+                <Image loading="lazy" className="rounded-lg" alt="wingman" src={Wingman} />
                 <p className="text-white font-bold pt-4 pb-1 text-[18px]">Wingman</p>
                 <p className="text-paragraph">
                   An Online Assistant Platform for CEIT Students at Cavite State
@@ -54,12 +54,13 @@ export default function Portfolio() {
                 </p>
               </Link>
             </div>
-            <div className="w-1/3 rounded-lg p-4 hover:bg-[#181818] duration-50 transition-all">
+            <div className="lg:w-1/3 rounded-lg p-4 hover:bg-[#181818] duration-50 transition-all">
               <Link
                 href="https://github.com/iamnards/digitalkubo"
                 target="_blank"
               >
                 <Image
+                  loading="lazy"
                   className="rounded-lg"
                   alt="digitalkubo"
                   src={DigitalKubo}
@@ -69,9 +70,10 @@ export default function Portfolio() {
               </Link>
             </div>
           </div>
-          <div className="flex space-x-8 py-4">
-            <div className="w-1/3 rounded-lg p-4 hover:bg-[#181818] duration-50 transition-all orig">
+          <div className="lg:flex lg:space-x-8 lg:py-4">
+            <div className="lg:w-1/3 rounded-lg p-4 hover:bg-[#181818] duration-50 transition-all orig">
                 <Image
+                  loading="lazy"
                   className="rounded-lg object-cover"
                   alt="donut"
                   src={Donut}
@@ -81,8 +83,9 @@ export default function Portfolio() {
                 An animated 3D donut model, guide from Blender Guru.
               </p>
             </div>
-            <div className="w-1/3 rounded-lg p-4 hover:bg-[#181818] duration-50 transition-all orig">
+            <div className="lg:w-1/3 rounded-lg p-4 hover:bg-[#181818] duration-50 transition-all orig">
               <Image
+                loading="lazy"
                 className="rounded-lg object-cover"
                 alt="Pyramid"
                 src={Pyramid}
@@ -93,8 +96,8 @@ export default function Portfolio() {
                 YouTube and rendered using Blender.
               </p>
             </div>
-            <div className="w-1/3 rounded-lg p-4 hover:bg-[#181818] duration-50 transition-all">
-              <Image className="rounded-lg" alt="chess" src={Chess} />
+            <div className="lg:w-1/3 rounded-lg p-4 hover:bg-[#181818] duration-50 transition-all">
+              <Image loading="lazy" className="rounded-lg" alt="chess" src={Chess} />
               <p className="text-white font-bold pt-4 pb-1 text-[18px]">Chess</p>
               <p className="text-paragraph">
                 3D model of chess board and pieces made using Blender.

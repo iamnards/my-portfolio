@@ -11,7 +11,7 @@ export default function About() {
   return (
     <main className="h-full">
       <Navbar />
-      <section className="flex-wrap bg-wall mt-5 mx-16 py-4 px-8 z-10 boot">
+      <section className="flex-wrap bg-wall mt-5 lg:mx-16 py-4 px-8 z-10 boot">
         <div className="flex-wrap z-10 py-2">
           <div className="flex z-10">
             <h1 className="text-paragraph text-sm font-medium tracking-[2px] pr-3 ">
@@ -25,17 +25,18 @@ export default function About() {
             </h2>
           </div>
         </div>
-        <div className="z-10 flex py-6">
-          <div className="w-[32%]">
+        <div className="z-10 flex-wrap lg:flex py-6">
+          <div className="lg:w-[32%]">
             <Image
+              loading="lazy"
               className="z-100 m-auto"
               src={Side}
-              alt="Facebook"
+              alt="Side"
               width={350}
             />
           </div>
-          <div className="w-[68%]">
-            <h1 className="text-underline text-2xl font-bold py-1">
+          <div className="lg:w-[68%]">
+            <h1 className="text-underline text-2xl font-bold py-4 lg:py-1 text-center lg:text-left">
               Web Developer & Unity Game Dev
             </h1>
             <p className="text-white italic py-1">
@@ -44,8 +45,8 @@ export default function About() {
               on my desk writing codes and programs while drinking my cold
               coffee.
             </p>
-            <div className="py-2 flex">
-              <div className=" w-1/2 py-2 space-y-6 pb-4">
+            <div className="py-2 flex-wrap lg:flex">
+              <div className=" lg:w-1/2 py-2 space-y-6 pb-4">
                 <div className="flex">
                   <p className="text-underline px-2">{"►"}</p>
                   <p className="text-white font-bold pr-2">Birthday:</p>
@@ -107,15 +108,15 @@ export default function About() {
             </div>
           </div>
         </div>
-        <div className="py-10">
+        <div className="py-6 lg:py-10">
           <div className="flex z-10 py-4">
-            <h1 className="text-paragraph text-sm font-medium tracking-[2px] pr-3 ">
+            <h1 className="text-paragraph text-sm font-medium tracking-[2px] pr-3">
               SKILLS
             </h1>
             <div className="bg-underline h-[0.07rem] w-[9%] mt-[10px]"></div>
           </div>
-          <div className="py-2 flex space-x-6">
-            <div className="text-xs text-white font-bold w-1/2 space-y-6">
+          <div className="py-2 lg:flex lg:space-x-6 space-y-4 lg:space-y-0">
+            <div className="text-xs text-white font-bold w-full lg:w-1/2 space-y-6">
               <div className="space-y-2">
                 <div className="w-full flex">
                   <h2 className="w-1/2">PYTHON</h2>
@@ -162,7 +163,7 @@ export default function About() {
                 </div>
               </div>
             </div>
-            <div className="text-xs text-white font-bold w-1/2 space-y-6">
+            <div className="text-xs text-white font-bold w-full lg:w-1/2 space-y-6">
               <div className="text-xs text-white font-bold space-y-6">
                 <div className="space-y-2">
                   <div className="w-full flex">

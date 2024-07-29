@@ -1,18 +1,23 @@
 "use client";
 import Link from "next/link";
 import { usePathname } from "next/navigation";
+import Image from "next/image";
+import Burger from "./hamburger.png"
 
 export default function Navbar() {
   const currentPath = usePathname();
   return (
-    <nav className="text-white flex bg-black py-6">
-      <div className="pl-20 w-1/2 place-content-center">
-        <Link className="text-4xl font-black" href="/">
+    <nav className="text-white flex bg-black py-4 lg:py-6">
+      <div className="pl-5 lg:pl-20 w-1/2 place-content-center">
+        <Link className="text-2xl lg:text-4xl font-black" href="/">
           Nard Sarroca
         </Link>
       </div>
-      <div className="pr-20 w-1/2 font-medium text-end text-paragraph text-[16px] place-content-center">
-        <ul className="text-paragraph space-x-8">
+      <div className="pr-10 lg:pr-20 w-1/2 font-medium text-end text-paragraph text-[16px] place-content-center">
+        <button className="lg:hidden">
+          <Image className="invert mt-2" src={Burger} width={20}/>
+        </button>
+        <ul className="text-paragraph space-x-8  hidden lg:block">
           <Link
             className={
               currentPath === "/"
