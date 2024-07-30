@@ -11,7 +11,7 @@ import { TypeAnimation } from "react-type-animation";
 export default function Home() {
   return (
     <main className="h-screen flex z-10">
-      <div className="h-screen w-full lg:w-1/2 place-content-center px-0 md:px-10 lg:px-20 z-10 py-72 lg:py-0">
+      <div className="h-screen w-full lg:w-1/2 place-content-center px-0 md:px-10 lg:px-20 z-10 py-60 lg:py-0">
         <h2 className="text-white text-4xl lg:text-5xl font-extrabold place-content-center lg:pt-0 py-2 text-center lg:text-left">
           Nard Sarroca
         </h2>
