@@ -10,7 +10,7 @@ import { TypeAnimation } from "react-type-animation";
 
 export default function Home() {
   return (
-    <header className="h-screen w-screen flex">
+    <main className="h-screen flex">
       <div className="w-full lg:w-1/2 place-content-center px-6 md:px-10 lg:px-20 z-10">
         <h2 className="text-white text-5xl font-extrabold py-2 text-center lg:text-left">
           Nard Sarroca
@@ -87,6 +87,6 @@ export default function Home() {
           alt="Pic"
         />
       </div>
-    </header>
+    </main>
   );
 }
