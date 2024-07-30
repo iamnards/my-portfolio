@@ -21,7 +21,7 @@ export default function Portfolio() {
             <h1 className="text-paragraph text-sm font-medium tracking-[2px] pr-3">
               PORTFOLIO
             </h1>
-            <div className="bg-underline h-[0.07rem] w-[9%] mt-[10px]"></div>
+            <div className="bg-underline h-[0.07rem] w-[20%] lg:w-[9%] mt-[10px]"></div>
           </div>
           <div className="z-10">
             <h2 className="text-white text-[30px] lg:text-[34px] font-extrabold">
