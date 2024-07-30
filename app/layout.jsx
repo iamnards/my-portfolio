@@ -14,8 +14,8 @@ export default function RootLayout({ children }) {
   return (
     <html lang="en">
       <body className={jakarta.className}>
-      <RetroGrid className="z-[-1]"/>
         <AppRouterCacheProvider>
+        <RetroGrid className="z-0"/>
           {children}
         </AppRouterCacheProvider>
       </body>
