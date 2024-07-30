@@ -11,7 +11,7 @@ import { TypeAnimation } from "react-type-animation";
 export default function Home() {
   return (
     <main className="h-screen flex z-10">
-      <div className="h-screen w-full lg:w-1/2 place-content-center px-0 md:px-10 lg:px-20 z-10">
+      <div className="h-screen w-full lg:w-1/2 place-content-center px-0 md:px-10 lg:px-20 z-10 py-80 lg:py-0">
         <h2 className="text-white text-4xl lg:text-5xl font-extrabold place-content-center lg:pt-0 py-2 text-center lg:text-left">
           Nard Sarroca
         </h2>
@@ -30,7 +30,7 @@ export default function Home() {
           repeat={Infinity}
           />
         </p>
-        <ul className="text-paragraph space-x-[12px] lg:space-x-8 py-4 text-center lg:text-start text-sm lg:text-[16px] lg:leading-6">
+        <ul className="text-paragraph space-x-[12px] lg:space-x-5 xl:space-x-8 py-4 text-center lg:text-start text-sm lg:text-[16px] lg:leading-6">
           <Link className="text-white inline-block" href="/">
             Home ( )
             <div className="bg-underline h-[0.125rem] w-[50%] transition-all duration-500"></div>
