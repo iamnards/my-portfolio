@@ -14,13 +14,13 @@ export default function About() {
       <section className="flex-wrap bg-wall mt-5 lg:mx-16 py-4 px-8 z-10 boot">
         <div className="flex-wrap z-10 py-2">
           <div className="flex z-10">
-            <h1 className="text-paragraph text-sm font-medium tracking-[2px] pr-3 ">
+            <h1 className="text-paragraph text-sm font-medium tracking-[2px] pr-3">
               ABOUT
             </h1>
             <div className="bg-underline h-[0.07rem] w-[20%] lg:w-[9%] mt-[10px]"></div>
           </div>
           <div className="z-10">
-            <h2 className="text-white text-[34px] font-extrabold">
+            <h2 className="text-white font-extrabold text-[28px] lg:text-[34px] leading-normal">
               LEARN MORE ABOUT ME
             </h2>
           </div>
@@ -46,7 +46,7 @@ export default function About() {
               coffee.
             </p>
             <div className="py-2 flex-wrap lg:flex">
-              <div className=" lg:w-1/2 py-2 space-y-6 pb-4">
+              <div className="lg:w-1/2 py-2 space-y-6 pb-4">
                 <div className="flex">
                   <p className="text-underline px-2">{"►"}</p>
                   <p className="text-white font-bold pr-2">Birthday:</p>
@@ -98,7 +98,7 @@ export default function About() {
                 </div>
               </div>
             </div>
-            <div className="w-full">
+            <div className="w-full pt-2">
               <p className="text-white">
                 A dedicated Computer Science graduate with hands-on experience
                 in website development. Analytical and detail-oriented, I have

@@ -24,13 +24,13 @@ export default function Portfolio() {
             <div className="bg-underline h-[0.07rem] w-[20%] lg:w-[9%] mt-[10px]"></div>
           </div>
           <div className="z-10">
-            <h2 className="text-white text-[30px] lg:text-[34px] font-extrabold">
+            <h2 className="text-white text-[28px] lg:text-[34px] font-extrabold">
               MY WORKS AND COLLABORATIONS
             </h2>
           </div>
         </div>
         <div className="">
-          <div className="lg:flex lg:space-x-8 py-4">
+          <div className="lg:flex lg:space-x-8 py-2 lg:py-4">
             <div className="lg:w-1/3 rounded-lg p-4 hover:bg-[#181818] duration-50 transition-all">
               <Link href="https://github.com/iamnards/Odyssey" target="_blank">
                 <Image loading="lazy" className="rounded-lg" alt="odyssey" src={Odyssey} />
