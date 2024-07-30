@@ -15,7 +15,7 @@ export default function RootLayout({ children }) {
     <html lang="en">
       <body className={jakarta.className}>
         <AppRouterCacheProvider>
-        <RetroGrid className="z-0"/>
+        <RetroGrid className="z-1"/>
           {children}
         </AppRouterCacheProvider>
       </body>
