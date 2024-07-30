@@ -2,6 +2,7 @@ import { Plus_Jakarta_Sans } from "next/font/google";
 import "./globals.css";
 import { AppRouterCacheProvider } from "@mui/material-nextjs/v13-appRouter";
 import RetroGrid from "./components/retro";
+import { ThemeProvider } from "next-themes";
 
 const jakarta = Plus_Jakarta_Sans({ subsets: ["latin"] });
 
@@ -15,8 +16,10 @@ export default function RootLayout({ children }) {
     <html lang="en">
       <body className={jakarta.className}>
         <AppRouterCacheProvider>
-        <RetroGrid className="z-1"/>
-          {children}
+          <ThemeProvider attribute="class">
+            <RetroGrid className="z-1" />
+            {children}
+          </ThemeProvider>
         </AppRouterCacheProvider>
       </body>
     </html>
