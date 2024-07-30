@@ -40,7 +40,7 @@ export default function About() {
               Web Developer & Unity Game Dev
             </h1>
             <p className="text-white italic py-1">
-              Hi, I'm <span className="font-bold">Nard Sarroca</span>! I like
+              Hi, I&apos;m <span className="font-bold">Nard Sarroca</span>! I like
               exploring places, playing games, and working out. Usually, I sit
               on my desk writing codes and programs while drinking my cold
               coffee.

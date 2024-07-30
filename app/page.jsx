@@ -16,7 +16,7 @@ export default function Home() {
           Nard Sarroca
         </h2>
         <p className="text-paragraph text-xl lg:text-2xl py-2 text-center lg:text-left">
-          I'm a <TypeAnimation className="text-white"
+          I&apos;m a <TypeAnimation className="text-white"
           sequence={[
             "gradute of BS in Computer Science.",
             1200,
