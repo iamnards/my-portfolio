@@ -15,12 +15,12 @@ export default function RootLayout({ children }) {
   return (
     <html lang="en">
       <body className={jakarta.className}>
-        <AppRouterCacheProvider>
-          <ThemeProvider attribute="class">
+        <ThemeProvider attribute="class">
+          <AppRouterCacheProvider>
             <RetroGrid className="z-1" />
             {children}
-          </ThemeProvider>
-        </AppRouterCacheProvider>
+          </AppRouterCacheProvider>
+        </ThemeProvider>
       </body>
     </html>
   );
