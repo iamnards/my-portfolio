@@ -20,12 +20,12 @@ export default function Navbar() {
   return (
     <nav className="text-white bg-black py-4 lg:py-6">
       <div className="flex justify-between">
-        <div className="pl-5 lg:pl-20 w-1/2 place-content-center">
+        <div className="pl-5 lg:pl-20 w-[50%] place-content-center">
           <Link className="text-2xl lg:text-4xl font-black" href="/">
             Nard Sarroca
           </Link>
         </div>
-        <div className="pr-10 lg:pr-20 font-medium text-end text-paragraph text-[16px] place-content-center hidden lg:block">
+        <div className="pr-10 lg:pr-20 font-medium text-end text-paragraph text-[16px] place-content-center hidden lg:block w-[50%]">
           <ul className="text-paragraph space-x-8 text-right">
             <Link
               className={
@@ -92,10 +92,9 @@ export default function Navbar() {
           </ul>
         </div>
         <div
-          className="lg:hidden lg:w-0 cursor-pointer place-content-center text-right w-full pr-4"
-          onClick={handleNav}
+          className="lg:hidden lg:w-0 cursor-pointer place-content-center text-right w-[50%] pr-8"
         >
-          <button>
+          <button onClick={handleNav}>
             <Image
               alt="burger"
               className="invert mt-2"
@@ -108,19 +107,20 @@ export default function Navbar() {
       <div
         className={
           menuOpen
-            ? "fixed left-0 top-0 w-[65%] md:hidden h-screen bg-black p-10 ease-in duration-500 z-20"
+            ? "fixed left-0 top-0 w-[65%] lg:hidden h-screen bg-black p-10 ease-in duration-500 z-20"
             : "fixed left-[-100%] top-0 p-10 ease-in duration-500"
         }
       >
         <div className="w-full">
           <div className="flex">
             <div className="w-2/3">
-              <Link className="text-2xl font-black" href="/">
+              <Link className="text-xl font-black" href="/">
                 Nard Sarroca
               </Link>
             </div>
-            <div onClick={handleNav} className="w-1/3 cursor-pointer">
+            <div className="w-1/3 cursor-pointer">
               <Image
+              onClick={handleNav}
                 alt="close"
                 className="invert mt-2"
                 src={Close}
@@ -130,13 +130,13 @@ export default function Navbar() {
           </div>
           <div className="py-2">
             <div className="pr-10 lg:pr-20 font-medium text-paragraph text-[16px] place-content-center">
-              <p className=" text-lg">Site Map</p>
+              <p className=" text-md">Site Map</p>
               <ul className="text-paragraph text-left flex-wrap space-y-6 py-8">
                 <Link
                   className={
                     currentPath === "/"
-                      ? "group inline-block text-white font-semibold w-full"
-                      : "group inline-block w-full"
+                      ? "group inline-block text-white font-semibold text-sm w-full"
+                      : "group inline-block text-sm w-full"
                   }
                   href="/"
                 >
@@ -146,8 +146,8 @@ export default function Navbar() {
                 <Link
                   className={
                     currentPath === "/about"
-                      ? "group inline-block text-white font-semibold w-full"
-                      : "group inline-block w-full"
+                      ? "group inline-block text-white font-semibold text-sm w-full"
+                      : "group inline-block text-sm w-full"
                   }
                   href="/about"
                 >
@@ -163,8 +163,8 @@ export default function Navbar() {
                 <Link
                   className={
                     currentPath === "/portfolio"
-                      ? "group inline-block text-white font-semibold w-full"
-                      : "group inline-block w-full"
+                      ? "group inline-block text-white font-semibold text-sm w-full"
+                      : "group inline-block text-sm w-full"
                   }
                   href="/portfolio"
                 >
@@ -180,8 +180,8 @@ export default function Navbar() {
                 <Link
                   className={
                     currentPath === "/contact"
-                      ? "group inline-block text-white font-semibold w-full"
-                      : "group inline-block w-full"
+                      ? "group inline-block text-white font-semibold text-sm w-full"
+                      : "group inline-block text-sm w-full"
                   }
                   href="/contact"
                 >
@@ -198,7 +198,7 @@ export default function Navbar() {
             </div>
           </div>
           <div>
-            <ul className="flex gap-6 place-content-center lg:place-content-start">
+            <ul className="flex gap-6 place-content-start">
               <Link
                 className="bg-black hover:invert hover:duration-500 rounded-full p-3"
                 href="https://www.facebook.com/bernarddddd"
